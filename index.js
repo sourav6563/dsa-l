@@ -45,11 +45,93 @@ b = c
 
 
 
- let i = 5
- let j = 10
- console.log(i-j); 
+//  let i = 5
+//  let j = 10
+//  console.log(i-j); 
 
- console.log(10%5);
+ console.log(2%7);
+ console.log(Math.floor(2/7));
+
+
+ let p = 4565
+ console.log(p/10);
+
+ //relational operators
+
+ console.log(10 !== 110); // JavaScript does not have a strict relational operator like >==; use >= which performs automatic type coercion.
  
+console.log(12=='12');
+console.log(12==='12');
+
+
+ // && and || operators just try to understand
+
+ console.log(10>6 && 6>7);
+ console.log(10>6 || 6>7);
+
  
+ let i = 10
+  console.log(i++);
+  console.log(++i);
+  
+  
+  let q =10
+  let s =20
+  let t  = q +s + q++ + s++ + ++q + ++s
+
+  console.log(q);
+  console.log(s);
+  console.log(t);
+  
+  let voki = true
+  console.log(++voki);
+  
+  let bunny = 10
+   console.log(++bunny);
+
+   let huggy = 10
+   // console.log(++(huggy++)); // This causes: SyntaxError: Invalid left-hand side expression in prefix operation
+   
+   console.log(Math.round(10.49999999999999))
+   
+   console.log(Math.trunc(12.658484)) 
+   console.log(Math.pow(10,5)) 
+ 
+ console.log(Math.sqrt(25));
+
+ console.log(Math.cbrt(8)); // Returns 2
+ console.log(Math.cbrt(27)); // Returns 3
+ console.log(Math.cbrt(-64)); // Returns -4 
+
+
+ console.log(Math.abs(-45));
+  // hey this actually used for negative number to positive number
+ console.log(Math.max(2,3,4,5,6,7,8,9,10,20));
+ console.log(Math.min(2,3,4,5,6,7,8,9,10,20));
+ console.log(Math.floor(Math.random()*9000)+1000);
+ console.log(Math.floor(Math.random()*(999999-100000+1)+100000))
+
+
+//formula  * (max-min+1) + min
+
+ 
+ let l = 8
+ let w = 4
+ console.log(8*4);
+ console.log(2*(8+4));
+ 
+
+ let u =10
+ let r =8
+ let h = 6
+ //herons formula of trainagle
+ let sm = (u+r+h)/2
+
+ console.log(Math.sqrt(sm*(sm-u)*(sm-r)*(sm-h)));
+
+
+ let rb = 4
+ console.log(Number((2*Math.PI*rb).toFixed(2)));
+  
+
  
