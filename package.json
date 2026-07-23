@@ -1,0 +1,24 @@
+{
+  "name": "dsa-l",
+  "version": "1.0.0",
+  "description": "Repository for Data Structures and Algorithms practice and implementation.",
+  "main": "pattern.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node array.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sourav6563/dsa-l.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sourav6563/dsa-l/issues"
+  },
+  "homepage": "https://github.com/sourav6563/dsa-l#readme",
+  "dependencies": {
+    "prompt": "^1.3.0",
+    "prompt-sync": "^4.2.0"
+  }
+}
